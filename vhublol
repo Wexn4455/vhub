@@ -3,7 +3,7 @@ local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/Iri
 getgenv()["IrisAd"]=true
 
 spawn(function()
-  Notification.Notify("V-Hub", "Loading! Please Wait...", "rbxassetid://8577247587");
+  Notification.Notify("V-Hub", "Loading! Please Wait...", "rbxassetid://9663446600");
 end)
 
 wait(5)
@@ -83,13 +83,13 @@ cred:Label("Diditim The Developer",{
 local v = w:CreateFolder("Other")
 
 v:Button("Discord Server",function()
-    setclipboard("https://discord.gg/p5ParsU2gg")
+    setclipboard("https://discord.gg/MQvWdWRK6m")
     local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
 
 getgenv()["IrisAd"]=true
 
 spawn(function()
-  Notification.Notify("V-Hub", "Copied", "rbxassetid://8577247587");
+  Notification.Notify("V-Hub", "Succesfuly Copied Discord Link!", "rbxassetid://9663446600");
 end)
 end)
 
@@ -101,5 +101,5 @@ local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/Iri
 getgenv()["IrisAd"]=true
 
 spawn(function()
-  Notification.Notify("V-Hub", "Loaded!", "rbxassetid://8577247587");
+  Notification.Notify("V-Hub", "Loaded!", "rbxassetid://9663446600");
 end)
