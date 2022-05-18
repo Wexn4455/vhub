@@ -74,7 +74,7 @@ cred:Label("Wexn The Creator",{
 }) 
 
 cred:Label("Diditim The Developer",{
-    TextSize = 25; -- Self Explaining
+    TextSize = 22; -- Self Explaining
     TextColor = Color3.fromRGB(255,0,0); -- Self Explaining
     BgColor = Color3.fromRGB(0,0,0); -- Self Explaining
     
