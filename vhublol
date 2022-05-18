@@ -1,0 +1,105 @@
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+getgenv()["IrisAd"]=true
+
+spawn(function()
+  Notification.Notify("V-Hub", "Loading! Please Wait...", "rbxassetid://8577247587");
+end)
+
+wait(5)
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+local w = library:CreateWindow("V-Hub") -- Creates the window
+
+local b = w:CreateFolder("Roblox Bedwars") -- Creates the folder(U will put here your buttons,etc)
+
+b:Button("Vape V4",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+local v = w:CreateFolder("Admin Commands")
+
+v:Button("Reviz Admin",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ROBLOXHAX/Prison_Life_Hax/master/!%20%5BFE%5D%20Reviz%20Admin%20Cmd%20%5BBEST%5D.txt", true))()
+end)
+
+v:Button("Infinite Yield",function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+local i = w:CreateFolder("Some FE stuff")
+
+i:Button("Telekinesis",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VWexn/V-Hub/main/telekinesis", true))()
+end)
+
+local u = w:CreateFolder("Adopt Me")
+
+u:Button("V-G Hub",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub%27", true))()
+end)
+
+local m = w:CreateFolder("Natural Disaster")
+
+m:Button("NDS GUI",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/LoadstringUjHI6RQpz2o8", true))()
+end)
+
+local pri = w:CreateFolder("Prison Life")
+
+pri:Button("Septex",function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+local build = w:CreateFolder("Build A Boat")
+
+build:Button("BABFT",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
+end)
+
+local brook = w:CreateFolder("Brookhaven Rp")
+
+brook:Button("Bomb Script (FPS DROP)",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/BROOKHAVEN/main/METAB", true))()
+end)
+
+local cred = w:CreateFolder("Credits")
+
+cred:Label("Wexn The Creator",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,0,0); -- Self Explaining
+    BgColor = Color3.fromRGB(0,0,0); -- Self Explaining
+    
+}) 
+
+cred:Label("Diditim The Developer",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,0,0); -- Self Explaining
+    BgColor = Color3.fromRGB(0,0,0); -- Self Explaining
+    
+}) 
+
+local v = w:CreateFolder("Other")
+
+v:Button("Discord Server",function()
+    setclipboard("https://discord.gg/p5ParsU2gg")
+    local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+getgenv()["IrisAd"]=true
+
+spawn(function()
+  Notification.Notify("V-Hub", "Copied", "rbxassetid://8577247587");
+end)
+end)
+
+
+v:DestroyGui()
+
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+getgenv()["IrisAd"]=true
+
+spawn(function()
+  Notification.Notify("V-Hub", "Loaded!", "rbxassetid://8577247587");
+end)
